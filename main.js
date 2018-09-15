@@ -67,6 +67,7 @@ function setStatusClosed (id) {
   fetchIssues();
 }
 
+
 function deleteIssue (id) {
   var issues = JSON.parse(localStorage.getItem('issues'));
 
