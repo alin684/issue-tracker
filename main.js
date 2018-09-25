@@ -94,8 +94,3 @@ function pushIssue (id) {
 
   fetchIssues();
 }
-
-function turnAroundIssue (id) {
-  var issues = JSON.parse(localStorage.getItem('issues'));
-  fetchIssues();
-}
