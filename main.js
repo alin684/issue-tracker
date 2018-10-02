@@ -58,4 +58,5 @@ function destroyIssue(e) {
   var issueId = chance.guid();
   var issueDesc = document.getElementById('issueDescInput').value;
 
+
 }
