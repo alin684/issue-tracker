@@ -60,11 +60,5 @@ function destroyIssue(e) {
   var issueSeverity = document.getElementById('issueSeverityInput').value;
   var issueAssignedTo = document.getElementById('issueAssignedToInput').value;
   var issueStatus = 'Open';
-  var issue = {
-    id: issueId,
-    description: issueDesc,
-    severity: issueSeverity,
-    assignedTo: issueAssignedTo,
-    status: issueStatus
-  }
+
 }
