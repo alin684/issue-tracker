@@ -57,8 +57,5 @@ function saveIssue(e) {
 function destroyIssue(e) {
   var issueId = chance.guid();
   var issueDesc = document.getElementById('issueDescInput').value;
-  var issueSeverity = document.getElementById('issueSeverityInput').value;
-  var issueAssignedTo = document.getElementById('issueAssignedToInput').value;
-  var issueStatus = 'Open';
 
 }
