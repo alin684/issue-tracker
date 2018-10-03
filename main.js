@@ -53,8 +53,3 @@ function saveIssue(e) {
 
   e.preventDefault();
 }
-
-function destroyIssue(e) {
-  var issueId = chance.guid();
-  var issueDesc = document.getElementById('issueDescInput').value;
-}
