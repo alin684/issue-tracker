@@ -51,11 +51,3 @@ function saveIssue(e) {
 
   e.preventDefault();
 }
-
-function testIssues () {
-  var issues = JSON.parse(localStorage.getItem('issues'));
-  var issuesList = document.getElementById('issuesList');
-
-  issuesList.innerHTML = '';
-  }
-}
