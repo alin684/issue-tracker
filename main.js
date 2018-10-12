@@ -51,8 +51,4 @@ function saveIssue(e) {
 
   e.preventDefault();
 
-    document.getElementById('issueInputForm').reset();
-
-    fetchIssues();
-
 }
