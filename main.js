@@ -46,8 +46,6 @@ function saveIssue(e) {
   }
 
   document.getElementById('issueInputForm').reset();
-
   fetchIssues();
-
   e.preventDefault();
 }
