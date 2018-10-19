@@ -49,11 +49,4 @@ function saveIssue(e) {
   fetchIssues();
   e.preventDefault();
 
-  document.getElementById('issueInputForm').reset();
-  fetchIssues();
-  e.preventDefault();
-
-  document.getElementById('issueInputForm').reset();
-  fetchIssues();
-  e.preventDefault();
 }
