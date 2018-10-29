@@ -110,15 +110,4 @@ function buildIssue(e) {
     localStorage.setItem('issues', JSON.stringify(issues));
   }
 
-  if (localStorage.getItem('issues') === null) {
-    var issues = [];
-    issues.push(issue);
-    localStorage.setItem('issues', JSON.stringify(issues));
-  } else {
-    var issues = JSON.parse(localStorage.getItem('issues'));
-    issues.push(issue);
-    localStorage.setItem('issues', JSON.stringify(issues));
-  }
-
-  
 }
