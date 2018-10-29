@@ -119,4 +119,6 @@ function buildIssue(e) {
     issues.push(issue);
     localStorage.setItem('issues', JSON.stringify(issues));
   }
+
+  
 }
