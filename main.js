@@ -100,6 +100,8 @@ function buildIssue(e) {
     localStorage.setItem('issues', JSON.stringify(issues));
   }
 
+
+
   if (localStorage.getItem('issues') === null) {
     var issues = [];
     issues.push(issue.id);
