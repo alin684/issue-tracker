@@ -51,7 +51,7 @@ function saveIssue(e) {
 
 }
 
-function buildIssue(e) {
+function takeIssue(e) {
   var issueId = chance.guid();
   var issueDesc = document.getElementById('issueDescInput').value;
   var issueSeverity = document.getElementById('issueSeverityInput').value;
