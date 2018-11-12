@@ -58,11 +58,7 @@ function takeIssue(e) {
   var issueAssignedTo = document.getElementById('issueAssignedToInput').value;
   var issueStatus = 'Open';
   var issue = {
-    id: issueId,
-    description: issueDesc,
-    severity: issueSeverity,
-    assignedTo: issueAssignedTo,
-    status: issueStatus
+
   }
 
   if (localStorage.getItem('issues') === null) {
